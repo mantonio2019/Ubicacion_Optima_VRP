@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UbicacionOptimaVrpDialogBase</class>
+ <widget class="QDialog" name="UbicacionOptimaVrpDialogBase">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>400</width><height>360</height></rect>
+  </property>
+  <property name="windowTitle"><string>Ubicación Óptima de VRP</string></property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QWidget" name="formContainer">
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0"><widget class="QLabel" name="labelINP"><property name="text"><string>Archivo INP:</string></property></widget></item>
+      <item row="0" column="1"><widget class="QLineEdit" name="lineEditINP"/></item>
+      <item row="1" column="1"><widget class="QPushButton" name="pushButtonBrowse"><property name="text"><string>Buscar...</string></property></widget></item>
+      <item row="2" column="0"><widget class="QLabel" name="labelPmin"><property name="text"><string>Presión mínima (mca):</string></property></widget></item>
+      <item row="2" column="1"><widget class="QLineEdit" name="lineEditPmin"/></item>
+      <item row="3" column="0"><widget class="QLabel" name="labelPmax"><property name="text"><string>Presión máxima (mca):</string></property></widget></item>
+      <item row="3" column="1"><widget class="QLineEdit" name="lineEditPmax"/></item>
+      <item row="4" column="0"><widget class="QLabel" name="labelCmin"><property name="text"><string>Caudal mínimo (m³/s):</string></property></widget></item>
+      <item row="4" column="1"><widget class="QLineEdit" name="lineEditCmin"/></item>
+      <item row="5" column="0"><widget class="QLabel" name="labelCmax"><property name="text"><string>Caudal máximo (m³/s):</string></property></widget></item>
+      <item row="5" column="1"><widget class="QLineEdit" name="lineEditCmax"/></item>
+      <item row="6" column="0"><widget class="QLabel" name="labelDmin"><property name="text"><string>Diámetro mínimo (m):</string></property></widget></item>
+      <item row="6" column="1"><widget class="QLineEdit" name="lineEditDmin"/></item>
+      <item row="7" column="0"><widget class="QLabel" name="labelDmax"><property name="text"><string>Diámetro máximo (m):</string></property></widget></item>
+      <item row="7" column="1"><widget class="QLineEdit" name="lineEditDmax"/></item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButtonRun"><property name="text"><string>Ejecutar Optimización</string></property></widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
