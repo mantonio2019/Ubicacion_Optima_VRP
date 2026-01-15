@@ -1,6 +1,6 @@
 [general]
 name=Ubicacion_Optima_VRP
-version=1.0.4
+version=1.0.5
 qgisMinimumVersion=3.22
 qgisMaximumVersion=3.99
 category=Analysis
