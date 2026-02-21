@@ -1,6 +1,6 @@
 [general]
 name=Ubicacion_Optima_VRP
-version=1.0.5
+version=1.0.6
 qgisMinimumVersion=3.22
 qgisMaximumVersion=3.99
 category=Analysis
@@ -11,10 +11,10 @@ experimental=False
 deprecated=False
 author=Miguel Molina Hernandez
 email=m.antonio@simapag.gob.mx
-description=Optimiza la ubicación de válvulas reductoras de presión (VRP) en redes de agua con PSO y datos hidráulicos (INP/EPANET via WNTR).
-about=Complemento de QGIS para identificar y evaluar ubicaciones óptimas de VRP a partir de un archivo INP, extrayendo presión, caudal y diámetro y aplicando una función de penalización configurable (presión objetivo, rangos y diámetros comerciales).
+description=Optimiza la ubicación de válvulas reductoras de presión (VRP) en redes de agua potable utilizando Particle Swarm Optimization (PSO) a partir de modelos hidráulicos de EPANET en formato INP.
+about=Complemento de QGIS que permite a los usuarios cargar un modelo hidráulico calibrado de EPANET en formato INP, configurar los parámetros de entrada de la red (presión, caudal y diámetro) para el algoritmo PSO, y ejecutar la optimización para generar propuestas de ubicación óptima de válvulas reductoras de presión (VRP) con base en los criterios definidos.
 homepage=https://github.com/mantonio2019/Ubicacion_Optima_VRP
 repository=https://github.com/mantonio2019/Ubicacion_Optima_VRP
 tracker=https://github.com/mantonio2019/Ubicacion_Optima_VRP/issues
-description_en=This QGIS plugin allows users to identify and evaluate optimal locations for pressure reducing valves (PRVs) in water distribution networks using Particle Swarm Optimization (PSO). The plugin works with calibrated hydraulic models in EPANET INP format.
-about_en=The plugin is designed for water utilities and hydraulic engineers. Users load a calibrated EPANET INP model, configure PSO parameters, and run the optimization process to determine optimal PRV placement based on pressure reduction criteria. The results help improve pressure management, reduce leakage, and increase network efficiency.
+description_en=Optimizes the location of pressure reducing valves (PRVs) in drinking water distribution networks using Particle Swarm Optimization (PSO) based on EPANET hydraulic models in INP format.
+about_en=QGIS plugin that allows users to load a calibrated EPANET INP hydraulic model, configure network input parameters (pressure, flow rate and diameter) for the PSO algorithm, and execute the optimization to generate optimal PRV location proposals based on the defined criteria.
