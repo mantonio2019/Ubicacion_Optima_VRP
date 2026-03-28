@@ -1,6 +1,6 @@
 [general]
 name=Ubicacion_Optima_VRP
-version=1.0.7
+version=1.0.8
 qgisMinimumVersion=3.22
 qgisMaximumVersion=3.99
 category=Analysis
@@ -11,10 +11,15 @@ experimental=False
 deprecated=False
 author=Miguel Molina Hernandez
 email=m.antonio@simapag.gob.mx
+
 description=Encuentra ubicaciones óptimas para válvulas reductoras de presión (VRP) en redes de distribución de agua utilizando PSO y modelos de EPANET en formato INP.
-about=Complemento de QGIS que permite a los usuarios cargar un modelo calibrado de EPANET en formato INP, configurar los parámetros de entrada de la red (presión, caudal y diámetro) para el algoritmo PSO, y ejecutar la optimización para generar propuestas de ubicación óptima de válvulas reductoras de presión (VRP) con base en los criterios definidos.
+
+about=Complemento de QGIS que permite a los usuarios cargar un modelo calibrado de EPANET en formato INP, configurar los parámetros de entrada de la red (presión, caudal y diámetro) para el algoritmo PSO y ejecutar la optimización para generar propuestas de ubicación óptima de válvulas reductoras de presión (VRP) con base en los criterios definidos.
+
 homepage=https://github.com/mantonio2019/Ubicacion_Optima_VRP
 repository=https://github.com/mantonio2019/Ubicacion_Optima_VRP
 tracker=https://github.com/mantonio2019/Ubicacion_Optima_VRP/issues
-description_en=Finds optimal locations for pressure reducing valves (PRVs) in water distribution networks using PSO and EPANET INP models.
-about_en=Load an EPANET INP model, set PSO parameters and run the optimization to generate optimal PRV locations based on pressure criteria.
+
+description_en=Optimize PRV locations in water networks using EPANET INP models and PSO.
+
+about_en=Load an EPANET INP model, set PSO parameters and run the optimization to get optimal PRV locations.
