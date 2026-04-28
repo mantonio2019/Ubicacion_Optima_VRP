@@ -1,25 +1,21 @@
 [general]
 name=Ubicacion_Optima_VRP
-version=1.0.9
+version=1.0.10
 qgisMinimumVersion=3.22
 qgisMaximumVersion=3.99
 category=Analysis
 icon=icon.png
-tags=hidraulica, agua, optimizacion, pso, vrp, presion, epanet, wntr, qgis
+tags=hydraulics, water, optimization, pso, prv, pressure, epanet, wntr, qgis
 license=GPL-3.0-or-later
 experimental=False
 deprecated=False
 author=Miguel Molina Hernandez
 email=m.antonio@simapag.gob.mx
 
-description=Encuentra ubicaciones óptimas para válvulas reductoras de presión (VRP) en redes de distribución de agua utilizando PSO y modelos hidráulicos de EPANET en formato INP.
+description=QGIS plugin for optimizing PRV locations in water distribution networks.
 
-about=Complemento de QGIS que permite a los usuarios cargar un modelo calibrado de EPANET en formato INP, configurar los parámetros de entrada de la red (presión, caudal y diámetro) para el algoritmo PSO y ejecutar la optimización para generar propuestas de ubicación óptima de válvulas reductoras de presión (VRP) con base en los criterios definidos.
+about=Load an EPANET INP model, configure PSO parameters, and run the optimization to identify optimal PRV locations.
 
 homepage=https://github.com/mantonio2019/Ubicacion_Optima_VRP
 repository=https://github.com/mantonio2019/Ubicacion_Optima_VRP
 tracker=https://github.com/mantonio2019/Ubicacion_Optima_VRP/issues
-
-description_en=QGIS plugin for optimizing PRV locations in water distribution networks.
-
-about_en=Load an EPANET INP model, configure PSO parameters and run the optimization to identify optimal PRV locations.
