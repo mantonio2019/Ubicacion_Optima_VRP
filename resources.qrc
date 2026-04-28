@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/plugins/Ubicacion_Optima_VRP" >
-        <file>icon.png</file>
-    </qresource>
-</RCC>
