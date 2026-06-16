@@ -11,10 +11,11 @@ experimental=False
 deprecated=False
 author=Miguel Molina Hernandez
 email=m.antonio@simapag.gob.mx
+contributors=José de Jesús Mora Rodríguez; Roberto Díaz Cuesta
 
 description=QGIS plugin for optimizing PRV locations in water distribution networks.
 
-about=This QGIS plugin was developed as part of the Master's thesis in Water Sciences titled: "Desarrollo de Complemento en QGIS para la Ubicación Óptima mediante PSO de Válvulas Reductoras de Presión en Redes de Distribución de Agua". Acknowledgements: To the Master's Program in Water Sciences of the Universidad de Guanajuato for the institutional and academic support provided during the development of this thesis. To SECIHTI for scholarship No. CVU 1344569, which supported the completion of this work.
+about=about=This QGIS plugin was developed as part of the Master of Science in Water Sciences thesis entitled "Desarrollo de Complemento en QGIS para la Ubicación Óptima mediante PSO de Válvulas Reductoras de Presión en Redes de Distribución de Agua". The plugin integrates EPANET hydraulic models, WNTR simulations and Particle Swarm Optimization (PSO) techniques to support the optimal placement of Pressure Reducing Valves (PRVs) in water distribution networks. Acknowledgements: The author gratefully acknowledges the Master's Program in Water Sciences of the Universidad de Guanajuato for the academic and institutional support provided during this research, and SECIHTI Scholarship No. CVU 1344569 for supporting the completion of this work.
 
 homepage=https://github.com/mantonio2019/Ubicacion_Optima_VRP
 repository=https://github.com/mantonio2019/Ubicacion_Optima_VRP
